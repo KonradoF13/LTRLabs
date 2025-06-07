@@ -35,9 +35,9 @@ yarn android
 ## Funkcjonalność
 
 - Ekran logowania z walidacją email i hasła
-- Po zalogowaniu łączy się do WebSocket pod `wss://rn.ltrlabsdev.pl/socket`
-- Subskrybuje kanał `games:lobby` (Phoenix Channels)
-- Odbiera wiadomość `announcement` i wyświetla ją na ekranie
+- Po zalogowaniu łączy się do WebSocket
+- Subskrybuje kanał (Phoenix Channels)
+- Odbiera wiadomość i wyświetla ją na ekranie
 - Obsługa błędów i loader przy logowaniu
 
 ---
